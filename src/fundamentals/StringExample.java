@@ -16,6 +16,8 @@ public class StringExample {
         String name = "Mart";
         int exp = 5;
         String nationality = "Thai";
+
+
         // New Java
         String introduction = STR."\{name}:\{exp}:\{nationality}"; // Know exactly pattern
         System.out.println(introduction);

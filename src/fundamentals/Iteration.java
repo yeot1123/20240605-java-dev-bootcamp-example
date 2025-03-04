@@ -58,6 +58,7 @@ public class Iteration {
         System.out.println("whileLoop dice amount until 4: " + counter);
     }
 
+    // recursiveExample
     public static int recursiveExample(int count) {
         if (count < 0) {
             return 0;
@@ -75,7 +76,7 @@ public class Iteration {
     public static void forEachExample() {
         // Use on Array/List with expectation to do on every element
         int sum1 = 0;
-        int[] exampleArray = new int[]{5,2,3,4};
+        int[] exampleArray = new int[]{5,2,3,4}; //create array
         for (int n : exampleArray) {
             sum1 += n;
         }
@@ -86,5 +87,6 @@ public class Iteration {
             sum2 += n;
         }
         System.out.println(STR."sum2: \{sum2}");
+
     }
 }

@@ -21,6 +21,7 @@ public class Operator {
         assignment();
         unary();
         ternary();
+
     }
 
     public static void arithmetic() {
@@ -48,6 +49,8 @@ public class Operator {
         var isScoreGreaterThanEqualZero = score >= 0;
         var isScoreLessThanHundred = score <= 100;
         var isInGradeScore = isScoreGreaterThanEqualZero && isScoreLessThanHundred;
+
+
         // OR - Either of them true = true
         var day = 23;
         var isGoToMall = (day >= 5 && day <= 10) || (day >= 20 && day <= 25);
@@ -65,7 +68,7 @@ public class Operator {
         var exampleValue1 = 7; // 111
         var exampleValue2 = 3; // 011
         // & bitwise AND
-        System.out.println(STR."AND: \{exampleValue1 & exampleValue2}"); // 3
+        System.out.println("AND: \{exampleValue1 & exampleValue2}"); // 3
         // | bitwise OR
         System.out.println(STR."OR: \{exampleValue1 | exampleValue2}"); // 7
         // ^ bitwise XOR
